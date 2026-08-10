@@ -35,7 +35,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 | ---- | ----------- | ---- | ------- | :------: |
 | bucket_name | The S3 bucket name to be created for the remote backend. | yes |
-| env |  The environment for which the dev S3 bucket is being created | `"dev"` | no |
+| env |  The environment for which the dev S3 bucket is being created | `"dev"` |
 
 ## Outputs
 
