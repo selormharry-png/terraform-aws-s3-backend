@@ -1,15 +1,21 @@
-## Requirements
+# Requirements
 
 | Name | Version |
 | ---- | ------- |
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.0 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.0.0 > 6.0.0 |
+| terraform | >= 1.0.0 |
+| aws | ~> 5.0.0 > 6.0.0 |
 
 ## Providers
 
 | Name | Version |
 | ---- | ------- |
-| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 5.0.0 > 6.0.0 |
+| aws | ~> 5.0.0 > 6.0.0 |
+
+## Provider
+
+| Name | Version |
+| ---- | ------- |
+| aws | ~> 5.0.0 > 6.0.0 |
 
 ## Modules
 
@@ -28,12 +34,11 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 | ---- | ----------- | ---- | ------- | :------: |
-| <a name="input_bucket_name"></a> [bucket\_name](#input\_bucket\_name) | The name of the S3 bucket to create for the remote backend. | `string` | n/a | yes |
-| <a name="input_env"></a> [env](#input\_env) | The environment for which the dev S3 bucket is being created | `string` | `"dev"` | no |
+| bucket_name | The name of the S3 bucket to create for the remote backend. | `string` | n/a | yes |
+| env | The environment for which the dev S3 bucket is being created | `string` | `"dev"` | no |
 
 ## Outputs
 
 | Name | Description |
 | ---- | ----------- |
-| <a name="output_bucket_arn"></a> [bucket\_arn](#output\_bucket\_arn) | The ARN of the S3 bucket created for the remote backend. |
-| <a name="output_bucket_name"></a> [bucket\_name](#output\_bucket\_name) | The name of the S3 bucket created for the remote backend. |
+| bucket_name | The name of the S3 bucket created for the remote backend. |
